@@ -34,7 +34,11 @@ const Home = () => {
       },
     })
       .then((response) => response.json())
-      .then((data) => {
+      .then(() => {
+        const data={
+          title: inputTitle,
+          note: inputNote
+        }
         setTodos((prevTodos) => [...prevTodos, data]);
         setInputTitle("");
         setInputNote("");
