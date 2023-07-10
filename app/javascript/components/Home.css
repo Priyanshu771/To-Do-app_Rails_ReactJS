@@ -1,0 +1,103 @@
+/* Home.css */
+
+
+.container{
+    position: relative;
+    right: 0;
+    left: 15%;
+    bottom: 0;
+    top: 100px;
+    text-align: center;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: black;
+    color: white;
+    
+}
+.table-responsive {
+    width: 30%;
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+  }
+  
+  .table th,
+  .table td {
+    white-space: nowrap;
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd;
+  }
+  
+  .table-bordered th {
+    background-color: #f5f5f5;
+  }
+  
+  .table-bordered tr.completed {
+    background-color: #c8e6c9 !important;
+  }
+  
+  .table-bordered tr.completed td {
+    color: #4caf50 !important;
+  }
+  
+  .table-bordered tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    transition: border-color 0.3s ease;
+  }
+  
+  .table-bordered tr:hover td {
+    transition: none;
+  }
+  
+  .table-bordered .form-check-input {
+    margin-top: 6px;
+  }
+  
+  .table-bordered .completed-icon {
+    color: #4caf50;
+  }
+  
+  .form-control {
+    width: 50%; /* Update the width as needed */
+    /* background-color: blue; */
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-flex;
+
+  }
+  
+  
+  .form-control:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control:focus {
+    outline: none;
+  }
+  
+
+  .inp{
+    display: flex;
+    /* justify-content: space-evenly; */
+    position: relative;
+    left: 365px;
+
+  }
+
+  .sc{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 425px;
+  }
